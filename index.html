@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal King | Bespoke Tailoring</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="container navbar-content">
+      <a href="#home" class="logo">
+        <img src="./Logo.png" alt="Royal King Logo" />
+        <span class="logo-text">Royal King</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-video">
+          <video src="./Video.mp4" autoplay loop muted playsinline></video>
+        </div>
+        <div class="hero-text">
+          <h1>Elegance Stitched to Perfection</h1>
+          <p>Experience the art of bespoke tailoring with Royal King. Timeless style, crafted exclusively for you.</p>
+          <a href="#contact" class="btn btn-primary">Let's Connect!</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-content">
+        <div class="about-text">
+          <h2>Our Story</h2>
+          <div class="divider"></div>
+          <p>We are a fifth-generation tailoring house with roots dating back to the mid-1950s. Over the decades, we
+            have continuously evolved with changing styles and trends, while staying true to the craftsmanship that
+            defines our heritage. Today, we specialize in exclusive wedding ensembles and refined ethnic attire.
+            Our newest division, Bespoke Tailoring, is dedicated to the art of individuality where we offer meticulous
+            crafted garments with an uncompromising focus on precision, fit, and personal expression.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="about_us.png" alt="Tailoring Craftsmanship">
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <div class="divider"></div>
+          <p>From weddings to the workplace, we tailor every moment.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="bespoke_suit.jpg" alt="Bespoke Suit">
+            </div>
+            <h3>Bespoke Suit</h3>
+            <p>Hand-cut and hand-made suits tailored to your exact measurements and style preferences.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-image">
+              <img src="wedding_attire.jpg" alt="Wedding Attire">
+            </div>
+            <h3>Wedding Attire</h3>
+            <p>Look your best on your special day with our custom wedding packages for grooms and groomsmen.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-image">
+              <img src="shirt_pant.jpg" alt="Customize Shirts and pants">
+            </div>
+            <h3>Customize Shirts and pants</h3>
+            <p>Experience the comfort and crisp look of shirts and pants made just for you, with premium fabrics.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-content">
+        <div class="contact-info">
+          <h2>Visit Us</h2>
+          <div class="divider"></div>
+          <p>Experience the fabric and fit in person at our studio.</p>
+          <div class="details">
+            <p><strong>Address:</strong>Shop No. 3, Palav Sadan, Jerbai Wadia Road, Bhoiwada, Parel, Mumbai 400012</p>
+            <p><strong>Phone:</strong> +022 24154350</p>
+            <p><strong>Email:</strong> royalkingtailor@gmail.com</p>
+            <p><strong>Hours:</strong> Tue-Sun: 10am - 9pm</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 Royal King Tailors. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./main.js" type="module"></script>
+</body>
+
+</html>
