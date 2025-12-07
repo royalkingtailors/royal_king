@@ -417,6 +417,18 @@ img {
   margin-bottom: 0.25rem;
 }
 
+.contact-info .details a {
+  color: inherit;
+  transition: var(--transition);
+}
+
+.contact-info .details a:hover {
+  color: var(--primary-gold);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
 
 
 /* Footer */
